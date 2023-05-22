@@ -32,6 +32,7 @@ header {
     justify-content: space-around;
     align-items: center;
     gap: 20px;
+    align-items: center;
 }
 
 
@@ -45,26 +46,34 @@ header {
 .logo-header {
     width: 300px;
 }
-
-@media (min-width: 500px) {
+@media(min-width: 500px) {
     header {
         flex-direction: column;
+        justify-content: center;
     }
 }
 
 .menu {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 10px;
     text-align: center;
     list-style-type: none;
-    gap: 20px;
+    gap: 15px;
     padding: 20px 0;
     position:sticky;
     height: 100px;
-    width: 100px;  
-    
+    width: 100px;    
 }
+
+@media (min-width: 500px) {
+    .menu {
+        flex-direction: row;
+        
+    }
+}
+
 .menu li a {
     color: white;
     font-weight: 900;
@@ -121,13 +130,14 @@ header {
     header {
         flex-direction: row;
         justify-content: space-around;
+        flex-direction: row;
     }   
 }
-@media (min-width: 500px) {
+/*@media (max-width: 768px) {
     menu {
         flex-direction: row;
     }
-}
+}*/
 
 .uno {
     background-image: url(../img/270567322_494135065380285_1449096319079319972_n.jpg);
