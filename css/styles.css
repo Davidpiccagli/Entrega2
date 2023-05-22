@@ -2,15 +2,14 @@
     margin: 0;
     padding: 0;
 }
-.principal{
-    background-image:url(/img/exotic-branches-leaves-plants-background-vector.jpg) ;
-}
+
 body {
     background-image: url(/img/exotic-branches-leaves-plants-background-vector.jpg);
     max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:100%;
+    background-position:top;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
