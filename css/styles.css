@@ -4,8 +4,7 @@
 }
 
 body {
-    background-image: url(../img/exotic-branches-leaves-plants-background-vector.jpg);
-    max-width: 100%;
+    background-image: url(/img/exotic-branches-leaves-plants-background-vector.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:top;
@@ -17,6 +16,7 @@ body {
 
 h1{ 
     text-align: center;
+    padding: 50px;
 }
 
 .seccion2{
